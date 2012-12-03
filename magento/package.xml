@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Facetly_Find</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="www.skyshi.com">Skyshi</license>
+    <channel>magento-community</channel>
+    <extends/>
+    <summary>Facetly smart search engine</summary>
+    <description>Facetly provide a fast and powerful product search engine that can be used to search data on your website. From a simple search to advanced search that requires many options for search, facetly provide a search engine that can help you to search for your product. Facetly can also manage data that inserted by using fields option that user set in facetly.com.</description>
+    <notes>-</notes>
+    <authors><author><name>Aditya Wiranata</name><user>aditskyshi</user><email>adit@skyshi.com</email></author></authors>
+    <date>2012-11-30</date>
+    <time>06:17:47</time>
+    <contents><target name="magecommunity"><dir name="Facetly"><dir name="Find"><dir name="Model"><file name="Custom.php" hash="e395ee71cec7c43005316c559ba24022"/><file name="Observer.php" hash="3fc62cefc8c531dd90778a5ba291a6d9"/><file name="facetly_api.php" hash="2571959baeddae3a12055230159c0ee0"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="ConfigController.php" hash="feb6e6c867b5fbb8c97db772605ae0eb"/></dir><file name="IndexController.php" hash="072e8964f894141c58d2123e9ff78c6a"/></dir><dir name="etc"><file name="adminhtml.xml" hash="e2b3ec8b5d6b37209f67885d8d958749"/><file name="config.xml" hash="2d3456fc7ce72d26369026f7751ce595"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Facetly_Find.xml" hash="46e6c95dd5cdba12785fa403e968a8e3"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="facetly_find.xml" hash="6963034042df7e48bfdfff89d594eb06"/></dir><dir name="template"><dir name="facetly"><dir name="find"><file name="facet_page.phtml" hash="54d2d845566c50da4d5f5d087983f24e"/><file name="form_page.phtml" hash="bc4e7b5436416050d00a70e15bd4e81c"/><file name="result_page.phtml" hash="159c793306cd1b532f6c3c57ff7b880a"/></dir></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><dir name="facetly"><file name="autocomplete.css" hash="9f585abaf53b15fcd5f6fc48688b62a8"/><file name="facetly.css" hash="41955fbc7a6eaadcd07ea3a77386eb94"/><file name="progressBar.css" hash="0a96959b9de877084363645313b86253"/></dir></dir></dir></dir></dir><dir name="adminhtml"><dir name="base"><dir name="default"><dir name="css"><file name="progressBar.css" hash="0a96959b9de877084363645313b86253"/></dir></dir></dir></dir></target><target name="mage"><dir name="js"><dir name="facetly"><file name="config.js.php" hash="e5dce65167638d9cd700890fda8a182f"/><dir name="js"><file name="facetly.js" hash="185fed1d15ad464dbc7464b3c064f969"/><file name="facetly.js~" hash="f395ed90b9444bba4ddadb04ab4a05ec"/><file name="jquery-1.8.3.js" hash="b25b0460d7ddea993dad32005f56d255"/><file name="jquery.address.js" hash="4951488fa1be772f33306bc44304e58a"/><file name="jquery.autocomplete.js" hash="231a510cf6eb40acfd68cf779c7e2e9c"/><file name="jquery.autocomplete.js~" hash="cc4e4a0f6153deebb8f409265c48c394"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

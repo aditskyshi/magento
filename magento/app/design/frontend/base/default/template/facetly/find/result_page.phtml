@@ -1,0 +1,32 @@
+	<h1>Facetly Search</h1>
+	
+	
+	<?php
+		
+		//Mage::register('foo', 'some value');
+		//echo Mage::registry('foo');
+		
+
+		
+		$results = 
+						'
+							<div id="facetly_result">
+								'.$facetly_results.'
+							</div>
+						';
+		echo $results;
+		
+		$product = Mage::getModel('find/custom');
+		//$loaded_data = $product->loadProductById(1);
+			//echo $this->getSkinUrl('images/catalog/product/placeholder/image.jpg');
+		
+		//$loaded_data = $product->loadGroupProduct(1,5);
+		$id = 12;
+			$product = Mage::getModel('find/custom');
+			$loaded_data = $product->loadProductById($id);
+		//print_r($loaded_data);
+		//$product->pushItem($loaded_data);
+		//$config = Mage::getModel('find/custom');
+		//$cats = $config->fullCats(3);	
+		//echo $cats;
+	?>		
